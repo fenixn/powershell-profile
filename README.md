@@ -5,7 +5,7 @@ This powershell profile allows the use of aliases for git commands.
 Place the Microsoft.PowerShell_profile.ps1 file into the C:\Users\{Your Username}\Documents\WindowsPowerShell directory. If the file already exists, you can append the functions in the file to your existing profile. Now when you run PowerShell, the profile will be loaded automatically by PowerShell and the shortcut commands will be available to use.
 
 ## Commands
-Alias: gits
+Alias: gits <br>
 Command: git status
 
 
