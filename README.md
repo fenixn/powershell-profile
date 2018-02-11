@@ -6,14 +6,11 @@ Place the Microsoft.PowerShell_profile.ps1 file into the C:\Users\{Your Username
 
 ## Commands
 Alias: gits
-
 Command: git status
 
 
 Alias: gitc
-
 Command: git commit -m
-
 Example:
 ```shell
 gitc "Commit message"
@@ -23,9 +20,7 @@ gitc "Commit message"
 
 
 Alias: gitps
-
 Command: git push origin
-
 Example:
 ```shell
 gitps master
@@ -35,9 +30,7 @@ gitps master
 
 
 Alias: gitpl
-
 Command: git pull origin
-
 Example:
 ```shell
 gitpl master
@@ -47,9 +40,7 @@ gitpl master
 
 
 Alias: gitch
-
 Command: git checkout
-
 Example:
 ```shell
 gitch master
@@ -59,13 +50,9 @@ gitch master
 
 
 Alias: gitb
-
 Command: git branch
-
 Example:
 ```shell
 gitb --remote
 ```
 => git branch --remote
-
-
