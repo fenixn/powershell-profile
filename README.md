@@ -9,8 +9,8 @@ Alias: gits <br>
 Command: git status
 
 
-Alias: gitc
-Command: git commit -m
+Alias: gitc <br>
+Command: git commit -m <br>
 Example:
 ```shell
 gitc "Commit message"
@@ -19,8 +19,8 @@ gitc "Commit message"
 
 
 
-Alias: gitps
-Command: git push origin
+Alias: gitps <br>
+Command: git push origin <br>
 Example:
 ```shell
 gitps master
@@ -29,8 +29,8 @@ gitps master
 
 
 
-Alias: gitpl
-Command: git pull origin
+Alias: gitpl <br>
+Command: git pull origin <br>
 Example:
 ```shell
 gitpl master
@@ -39,8 +39,8 @@ gitpl master
 
 
 
-Alias: gitch
-Command: git checkout
+Alias: gitch <br>
+Command: git checkout <br>
 Example:
 ```shell
 gitch master
@@ -49,8 +49,8 @@ gitch master
 
 
 
-Alias: gitb
-Command: git branch
+Alias: gitb <br>
+Command: git branch <br>
 Example:
 ```shell
 gitb --remote
