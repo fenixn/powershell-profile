@@ -1,3 +1,4 @@
+# Git functions
 function GitStatus { 
     & git status $args
 }
