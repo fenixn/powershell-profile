@@ -9,6 +9,16 @@ function GitCommit {
 }
 New-Alias -Name gitc -Value GitCommit
 
+function GitAdd {
+    & git add $args
+}
+New-Alias -Name gita -Value GitAdd
+
+function GitAddAll {
+    & git add .
+}
+New-Alias -Name gitaa -Value GitAddAll
+
 function GitPushOrigin {
     & git push origin $args
 }
@@ -29,6 +39,13 @@ function GitBranch {
 }
 New-Alias -Name gitb -Value GitBranch
 
+function GitMerge {
+    & git merge $args
+}
+New-Alias -Name gitm -Value GitMerge
+
+
+
 # WordPress functions
 function WordPressPlugins {
     & cd .\wp-content\plugins
@@ -39,6 +56,8 @@ function WordPressThemes {
     & cd .\wp-content\themes
 }
 New-Alias -Name cdwpt -Value WordPressThemes
+
+
 
 # Directory transversal functions
 
