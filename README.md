@@ -35,9 +35,23 @@ Alias: gits <br>
 Command: git status
 <br><br>
 
+Alias: gita <br>
+Command: git add <br>
+```shell
+gita ./*txt
+```
+=> git add ./*txt
+<br><br>
+
+Alias: gitaa <br>
+Command: git add all <br>
+```shell
+gitaa
+```
+=> git add .
+
 Alias: gitc <br>
 Command: git commit -m <br>
-Example:
 ```shell
 gitc "Commit message"
 ```
@@ -46,7 +60,6 @@ gitc "Commit message"
 
 Alias: gitps <br>
 Command: git push origin <br>
-Example:
 ```shell
 gitps master
 ```
@@ -55,7 +68,6 @@ gitps master
 
 Alias: gitpl <br>
 Command: git pull origin <br>
-Example:
 ```shell
 gitpl master
 ```
@@ -64,7 +76,6 @@ gitpl master
 
 Alias: gitch <br>
 Command: git checkout <br>
-Example:
 ```shell
 gitch master
 ```
@@ -73,12 +84,18 @@ gitch master
 
 Alias: gitb <br>
 Command: git branch <br>
-Example:
 ```shell
 gitb --remote
 ```
 => git branch --remote
 <br><br>
+
+Alias: gitm <br>
+Command: git merge <br>
+```shell
+gitm dev
+```
+=> git merge dev
 
 ## WordPress Commands
 Alias: cdwpp <br>
