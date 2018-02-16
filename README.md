@@ -30,6 +30,19 @@ Set-ExecutionPolicy RemoteSigned CurrentUser
 
 Now when you run PowerShell, the profile will be loaded automatically by PowerShell and the shortcut commands will be available to use.
 
+## Custom colors for the dir command
+You can get custom colors with the PSColor module (https://github.com/Davlind/PSColor). Easiest way to install is to use PsGet. To install PsGet:
+```shell
+(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
+```
+
+Then to install PSColor:
+```shell
+Install-Module PSColor
+```
+
+The dir (or ls if you have it) command will now have different colors for directories and filetypes. It can also be customized in the profile.
+
 ## Git Commands
 Alias: s <br>
 Command: git status
