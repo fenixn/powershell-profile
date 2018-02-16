@@ -2,47 +2,42 @@
 function GitStatus { 
     & git status $args
 }
-New-Alias -Name gits -Value GitStatus
-
-function GitCommit { 
-    & git commit -m $args 
-}
-New-Alias -Name gitc -Value GitCommit
-
-function GitAdd {
-    & git add $args
-}
-New-Alias -Name gita -Value GitAdd
+New-Alias -Name s -Value GitStatus
 
 function GitAddAll {
     & git add .
 }
-New-Alias -Name gitaa -Value GitAddAll
+New-Alias -Name aa -Value GitAddAll
+
+function GitCommit { 
+    & git commit -m $args 
+}
+New-Alias -Name c -Value GitCommit
 
 function GitPushOrigin {
     & git push origin $args
 }
-New-Alias -Name gitps -Value GitPushOrigin
+New-Alias -Name p -Value GitPushOrigin
 
 function GitPullOrigin {
     & git pull origin $args
 }
-New-Alias -Name gitpl -Value GitPullOrigin
+New-Alias -Name pl -Value GitPullOrigin
 
 function GitCheckout {
-    & git checkout $args
+    & git co $args
 }
-New-Alias -Name gitch -Value GitCheckout
+New-Alias -Name co -Value GitCheckout
 
 function GitBranch {
     & git branch $args
 }
-New-Alias -Name gitb -Value GitBranch
+New-Alias -Name b -Value GitBranch
 
 function GitMerge {
     & git merge $args
 }
-New-Alias -Name gitm -Value GitMerge
+New-Alias -Name m -Value GitMerge
 
 
 
