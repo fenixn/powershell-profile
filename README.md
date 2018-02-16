@@ -31,69 +31,61 @@ Set-ExecutionPolicy RemoteSigned CurrentUser
 Now when you run PowerShell, the profile will be loaded automatically by PowerShell and the shortcut commands will be available to use.
 
 ## Git Commands
-Alias: gits <br>
+Alias: s <br>
 Command: git status
 <br><br>
 
-Alias: gita <br>
-Command: git add <br>
-```shell
-gita ./*txt
-```
-=> git add ./*txt
-<br><br>
-
-Alias: gitaa <br>
+Alias: aa <br>
 Command: git add all <br>
 ```shell
-gitaa
+aa
 ```
 => git add .
 
-Alias: gitc <br>
+Alias: c <br>
 Command: git commit -m <br>
 ```shell
-gitc "Commit message"
+c "Commit message"
 ```
 => git commit -m "Commit message"
 <br><br>
 
-Alias: gitps <br>
+Alias: p <br>
 Command: git push origin <br>
 ```shell
-gitps master
+p master
 ```
 => git push origin master
 <br><br>
 
-Alias: gitpl <br>
+Alias: pl <br>
 Command: git pull origin <br>
 ```shell
-gitpl master
+pl master
 ```
 => git pull origin master
 <br><br>
 
-Alias: gitch <br>
+Alias: co <br>
 Command: git checkout <br>
 ```shell
-gitch master
+co master
 ```
 => git checkout master
 <br><br>
 
-Alias: gitb <br>
+Alias: b <br>
 Command: git branch <br>
 ```shell
-gitb --remote
+b --remote
 ```
 => git branch --remote
 <br><br>
 
-Alias: gitm <br>
+Alias: m <br>
 Command: git merge <br>
 ```shell
-gitm dev
+m dev
 ```
 => git merge dev
 
