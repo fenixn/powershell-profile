@@ -1,3 +1,26 @@
+# Quickly edit this profile
+function EditProfile {
+    & c:
+    & cd $env:USERPROFILE\Documents\WindowsPowerShell
+    powershell_ise.exe .\Microsoft.PowerShell_profile.ps1
+}
+New-Alias -Name pse -Value EditProfile
+
+function ReloadProfile {
+    @(
+        $Profile.AllUsersAllHosts,
+        $Profile.AllUsersCurrentHost,
+        $Profile.CurrentUserAllHosts,
+        $Profile.CurrentUserCurrentHost
+    ) | % {
+        if(Test-Path $_){
+            Write-Verbose "Running $_"
+            . $_
+        }
+    } 
+}
+New-Alias -Name psr -Value ReloadProfile
+
 # Git functions
 function GitStatus { 
     & git status $args
