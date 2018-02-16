@@ -43,6 +43,13 @@ Install-Module PSColor
 
 The dir (or ls if you have it) command will now have different colors for directories and filetypes. It can also be customized in the profile.
 
+## Quick Powershell Edit and Reload
+Alias: pse <br>
+Use this alias to navigate to Powershell directory and edit the profile in PowerShell ISE. <br><br>
+
+Alias: psr <br>
+Use this alias to reload the profile in Powershell <br><br>
+
 ## Git Commands
 Alias: s <br>
 Command: git status
