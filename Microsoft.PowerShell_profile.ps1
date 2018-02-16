@@ -2,7 +2,7 @@
 function EditProfile {
     & c:
     & cd $env:USERPROFILE\Documents\WindowsPowerShell
-    powershell_ise.exe .\Microsoft.PowerShell_profile.ps1
+    & powershell_ise.exe .\Microsoft.PowerShell_profile.ps1
 }
 New-Alias -Name pse -Value EditProfile
 
