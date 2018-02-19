@@ -78,10 +78,26 @@ p master
 => git push origin master
 <br><br>
 
+Alias: pm <br>
+Command: git push origin master <br>
+```shell
+pm
+```
+=> git push origin master
+<br><br>
+
 Alias: pl <br>
 Command: git pull origin <br>
 ```shell
 pl master
+```
+=> git pull origin master
+<br><br>
+
+Alias: plm <br>
+Command: git pull origin master <br>
+```shell
+plm
 ```
 => git pull origin master
 <br><br>
